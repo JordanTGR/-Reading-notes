@@ -39,3 +39,20 @@ El uso de los `[]` siendo este para el texto y los `()` para los enlaces como po
 ~~~
 - Resultado
   [Enter Tech](https://www.enter.edu.pe/code-101)
+## Lista desordenada y viñetas
+Es una forma muy intuitiva donde `+`,`*`y`-`; son las que se usan para poder crear las listas solo basta con ponerlas en un texto como por ejemplo:
+~~~
+- Elemento de lista 1
+- Elemento de lista 2
+* Elemento de lista 3
+* Elemento de lista 4
++ Elemento de lista 5
++ Elemento de lista 6
+~~~
+Dando lo siguiente:
+- Elemento de lista 1
+- Elemento de lista 2
+* Elemento de lista 3
+* Elemento de lista 4
++ Elemento de lista 5
++ Elemento de lista 6
