@@ -20,11 +20,18 @@ El simbolo que nos permite crear una de los elementos mas basicos es la `#` sien
 ~~~
 ## Negrita y Cursiva
 Una de las funciones mas importante sobre todo para resaltar o dar entender el texto es la negrita y cursiva, donde tenemos dos opcciones`*` o `_` siendo dos simbolos que ayudan a dar la forma que buscamos, siendo de esta forma:
-Markdown                                      Resultado
-`_Cursiva_`                                   _cursiva_
-`*Cursiva*`                                   *Cursiva*
-`__Negrita__`                                 __Negrita__
-`**Negrita**`                                 **Negrita**
+-Markdown 
+=
+`_Cursiva_`               
+`*Cursiva*`           
+`__Negrita__`         
+`**Negrita**` 
+.Resultado
+=
+_cursiva_
+*Cursiva*
+__Negrita__
+ **Negrita**
 Como se pueden usar ambos de este modo
 `___Cursiva y Negrita___`                    ___Cursiva y Negrita___
 `***Cursiva y Negrita***`                    ***Cursiva y Negrita***
