@@ -20,22 +20,18 @@ El simbolo que nos permite crear una de los elementos mas basicos es la `#` sien
 ~~~
 ## Negrita y Cursiva
 Una de las funciones mas importante sobre todo para resaltar o dar entender el texto es la negrita y cursiva, donde tenemos dos opcciones`*` o `_` siendo dos simbolos que ayudan a dar la forma que buscamos, siendo de esta forma.
-
--Markdown
+~~~
+Markdown
   -/_Cursiva_
   -/*Cursiva*
   -/__Negrita__
-  -/**Negrita**
-+Resultado
-  -_cursiva_
-  -*Cursiva*
-  -__Negrita__
-  -**Negrita**
+  /**Negrita**
+~~~
 Como se pueden usar ambos de este modo
-/___Cursiva y Negrita___
+~~~
 ___Cursiva y Negrita___
-/***Cursiva y Negrita***                   
 ***Cursiva y Negrita***
+~~~
 Siendo que el uso del `*` es mas eficiente para evitar algunas confuciones como mas versatil.
 ## Uso de link o Vinculo
 El uso de los `()` siendo este para el texto y los `[]` para los enlaces como por ejemplo
