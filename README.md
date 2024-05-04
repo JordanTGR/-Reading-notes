@@ -33,9 +33,9 @@ ___Cursiva y Negrita___
 ~~~
 Siendo que el uso del `*` es mas eficiente para evitar algunas confuciones como mas versatil.
 ## Uso de link o Vinculo
-El uso de los `()` siendo este para el texto y los `[]` para los enlaces como por ejemplo
+El uso de los `[]` siendo este para el texto y los `()` para los enlaces como por ejemplo
 ~~~
-  +/(Enter Tech)[https://www.enter.edu.pe/code-101]
+  +/[Enter Tech](https://www.enter.edu.pe/code-101)
 ~~~
-+Resultado
-  +(Enter Tech)[https://www.enter.edu.pe/code-101]
+- Resultado
+  [Enter Tech](https://www.enter.edu.pe/code-101)
