@@ -30,5 +30,4 @@ Esto sería un encabezado 2
 —-
 ~~~
 ## Negrita y Cursiva
-—
 Una de las funciones mas importante sobre todo para resaltar o dar entender el texto es la negrita y cursiva, donde tenemos dos opcciones`*` o `_` siendo dos simbolos que ayudan a dar la forma que buscamos, siendo de esta forma 
