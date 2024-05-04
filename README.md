@@ -19,7 +19,7 @@ El simbolo que nos permite crear una de los elementos mas basicos es la `#` sien
 ###### Encabezado 6
 ~~~
 ## Negrita y Cursiva
-Una de las funciones mas importante sobre todo para resaltar o dar entender el texto es la negrita y cursiva, donde tenemos dos opcciones`*` o `_` siendo dos simbolos que ayudan a dar la forma que buscamos, siendo de esta forma:
+Una de las funciones mas importante sobre todo para resaltar o dar entender el texto es la negrita y cursiva, donde tenemos dos opcciones`*` o `_` siendo dos simbolos que ayudan a dar la forma que buscamos, siendo de esta forma.
 +Markdown
 `_Cursiva_`               
 `*Cursiva*`           
