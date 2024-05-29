@@ -1,4 +1,4 @@
-
+// Función para obtener la edad del usuario
 function getUserAge() {
     let age = prompt('Por favor, ingresa tu edad:');
     while (!isValidAge(age)) {
@@ -8,11 +8,13 @@ function getUserAge() {
     displayUserMessage(age);
 }
 
+// Función para validar la edad del usuario
 function isValidAge(age) {
     const ageNumber = parseInt(age);
     return !isNaN(ageNumber) && ageNumber > 0 && ageNumber < 120;
 }
 
+// Función para mostrar un mensaje al usuario basado en su edad
 function displayUserMessage(age) {
     let message = '';
     if (age < 18) {
