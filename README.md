@@ -1,7 +1,8 @@
 # Hola Soy Jordan Trejo 
 Tengo 24 años, actualmente estudio programacion llevando el programa code 102 en Enter school, aprendiendo programacion. 
-## Definicion: en este sitio web esta el avance de mis trabajos llevados en el prograra: Indice:
-
+## Definicion:
+en este sitio web esta el avance de mis trabajos llevados en el programa: 
+1. Indice:
 Reading Notes del codigo 102
 +/[Read 01: Aprendiendo Markdown] ()
 Read 02: La computadora del programador
