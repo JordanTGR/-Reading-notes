@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importancia de Estudiar</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #333; color: white; text-align: center; padding: 10px 0; }
+        main { padding: 20px; }
+        .dynamic-section { margin-top: 20px; }
+        .important-text { color: #2e7d32; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>La Importancia de Estudiar</h1>
+</header>
+
+<main>
+    <section class="dynamic-section" id="userInputSection">
+        <h2>Interacción del Usuario</h2>
+        <button onclick="getUserInfo()">Ingresa tu edad</button>
+        <p id="userMessage"></p>
+    </section>
+
+    <section class="dynamic-section" id="importanceSection">
+        <h2>¿Por qué es importante estudiar?</h2>
+        <p>Estudiar es crucial para nuestro crecimiento personal y profesional. Nos ayuda a adquirir conocimientos, desarrollar habilidades y abrirnos puertas a nuevas oportunidades. La educación nos prepara para enfrentar los desafíos del mundo y contribuir positivamente a la sociedad.</p>
+        <p class="important-text" id="studyAdvice"></p>
+    </section>
+
+    <section class="dynamic-section" id="colorSection">
+        <h2>Sección de Color Personalizado</h2>
+        <button onclick="getColorPreference()">Elige un color</button>
+        <div id="colorDisplay" style="width: 100%; height: 100px; background: #eee; margin-top: 10px;"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Pie de página</p>
+</footer>
+
+<script>
+    // Component 1: Interacción basada en input del usuario
+    function getUserInfo() {
+        const age = prompt('Por favor, ingresa tu edad:');
+        if (age) {
+            let message = '';
+            if (age < 18) {
+                message = 'Eres joven y tienes un gran camino por delante. Aprovecha cada oportunidad para aprender.';
+            } else {
+                message = 'Nunca es tarde para aprender. La educación es un viaje de por vida.';
+            }
+            document.getElementById('userMessage').innerText = message;
+        } else {
+            document.getElementById('userMessage').innerText = 'No ingresaste tu edad.';
+        }
+    }
+
+    // Component 2: Uso de una declaración condicional
+    function displayMessageBasedOnTime() {
+        const currentHour = new Date().getHours();
+        let message = '';
+        if (currentHour < 12) {
+            message = '¡Buenos días! Es un buen momento para estudiar y aprender algo nuevo.';
+        } else if (currentHour < 18) {
+            message = '¡Buenas tardes! Sigue adelante con tu aprendizaje.';
+        } else {
+            message = '¡Buenas noches! Nunca es tarde para estudiar un poco más.';
+        }
+        document.getElementById('studyAdvice').innerText = message;
+    }
+
+    // Ejecutar la función displayMessageBasedOnTime al cargar la página
+    window.onload = displayMessageBasedOnTime;
+
+    // Component 3: Cambiar color basado en input del usuario
+    function getColorPreference() {
+        const color = prompt('Por favor, ingresa tu color favorito (nombre o código hexadecimal):');
+        if (color) {
+            document.getElementById('colorDisplay').style.background = color;
+        } else {
+            alert('No ingresaste un color válido.');
+        }
+    }
+
+    // Prueba de confirm()
+    function confirmAction() {
+        if (confirm('¿Estás seguro de que deseas realizar esta acción?')) {
+            alert('Acción confirmada.');
+        } else {
+            alert('Acción cancelada.');
+        }
+    }
+</script>
+
+</body>
+</html>
