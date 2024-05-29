@@ -5,7 +5,7 @@ en este sitio web esta el avance de mis trabajos llevados en el programa:
 1. Indice:
 Reading Notes del codigo 102
 
-+/[Read 01: Aprendiendo Markdown](https://github.com/JordanTGR/_Reading-notes/blob/main/102/readme01.md)
+- +/[Read 01: Aprendiendo Markdown](https://github.com/JordanTGR/_Reading-notes/blob/main/102/readme01.md)
 + Read 02: La computadora del programador
 + Read 03: Versionamiento local y remoto
 + Read 04: Estructura de paginas web con HTML
